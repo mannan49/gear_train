@@ -1,0 +1,17 @@
+.details_child {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.details_container p {
+  font-size: 1.5rem;
+}
+.details_child li {
+  list-style: disc;
+}
+@media screen and (max-width: 726px) {
+  .details_child {
+    display: flex;
+    flex-direction: column;
+  }
+}
