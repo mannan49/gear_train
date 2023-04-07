@@ -42,8 +42,6 @@ const Contact = () => {
               <h4>Emails</h4>
               <h5>mannannasir49@gmail.com</h5>
               <a href="mailto:mannannasir49@gmail.com" target="_blank">
-                {" "}
-                Send a message{" "}
               </a>
             </article>
             <article className="contact_option">
@@ -54,8 +52,7 @@ const Contact = () => {
                 href="https://m.me/profile.php?id=100009863538012"
                 target="_blank"
               >
-                {" "}
-                Send a message{" "}
+                Send a message
               </a>
             </article>
             <article className="contact_option">
@@ -66,8 +63,7 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=+923211156826"
                 target="_blank"
               >
-                {" "}
-                Send a message{" "}
+                Send a message
               </a>
             </article>
           </div>
@@ -94,8 +90,7 @@ const Contact = () => {
               required
             ></textarea>
             <button type="submit" className="contact_submit">
-              {" "}
-              Send Message{" "}
+              Send Message
             </button>
           </form>
         </div>
