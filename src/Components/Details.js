@@ -39,7 +39,7 @@ const Details = () => {
               </p>
             </div>
             <div className="details_child_image">
-              <img src={gif} alt="" />
+              <img src={gif} alt="Image for gear Train" />
             </div>
           </div>
           <div className="details_child">
@@ -67,7 +67,7 @@ const Details = () => {
               </ul>
             </div>
             <div className="details_child_image">
-              <img src={ring} alt="" />
+              <img src={ring} alt="Image for Ring gear Train" />
             </div>
           </div>
           <div className="details_child">
@@ -84,7 +84,7 @@ const Details = () => {
               </p>
             </div>
             <div className="details_child_image">
-              <img src={simple} alt="" />
+              <img src={simple} alt="Image for simple gear Train" />
             </div>
           </div>
           <div className="details_child">
@@ -112,7 +112,7 @@ const Details = () => {
               </p>
             </div>
             <div className="details_child_image">
-              <img src={compound} alt="" />
+              <img src={compound} alt="Image for Compound gear Train" />
             </div>
           </div>
           <div className="details_child">
@@ -132,7 +132,7 @@ const Details = () => {
               </p>
             </div>
             <div className="details_child_image">
-              <img src={reverted} alt="" />
+              <img src={reverted} alt="Image for Reverted gear Train" />
             </div>
           </div>
           <div className="details_child">
@@ -156,7 +156,7 @@ const Details = () => {
               </p>
             </div>
             <div className="details_child_image">
-              <img src={planetary} alt="" />
+              <img src={planetary} alt="Image for Planetary gear Train" />
             </div>
           </div>
         </div>
