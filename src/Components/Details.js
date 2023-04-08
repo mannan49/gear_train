@@ -11,14 +11,14 @@ import ring from "../assets/gear_train_ring.gif";
 const Details = () => {
   return (
     <Layout>
-      <h1 className="text-center text-5xl font-bold my-5">
+      <h1 className="text-center text-3xl md:text-5xl font-bold my-5">
         What is Gear Train?
       </h1>
       <div className="details_container">
         <div className="details_container_nested px-5">
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">Introduction:-</h2>
+              <h2 className="text-2xl md:text-4xl font-bold my-5">Introduction:-</h2>
               <p>
                 A gear train is a collection of gear wheels that transmit motion
                 from one shaft to another. Ordinary gear trains consist of
@@ -44,7 +44,7 @@ const Details = () => {
           </div>
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">
+              <h2 className="text-2xl md:text-4xl font-bold my-5">
                 Types of Gear Trains:-
               </h2>
               <p>
@@ -72,7 +72,7 @@ const Details = () => {
           </div>
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">Simple Gear Trains:-</h2>
+              <h2 className="text-2xl md:text-4xl font-bold my-5">Simple Gear Trains:-</h2>
               <p>
                 This is the simplest type of gear train for conveying motion
                 from one shaft to the other, as the name implies. All of the
@@ -90,7 +90,7 @@ const Details = () => {
           </div>
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">Compound Gear Train:-</h2>
+              <h2 className="text-2xl md:text-4xl font-bold my-5">Compound Gear Train:-</h2>
               <p>
                 A compound train of gears is when there are multiple gears on a
                 shaft, as seen in Figure. In a simple train of gears, we know
@@ -119,7 +119,7 @@ const Details = () => {
           </div>
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">Reverted Gear Train:-</h2>
+              <h2 className="text-2xl md:text-4xl font-bold my-5">Reverted Gear Train:-</h2>
               <p>
                 A reversed gear train is one in which the first and last gear
                 axes are co-axial, as seen in Figure.
@@ -139,7 +139,7 @@ const Details = () => {
           </div>
           <div className="details_child">
             <div className="details_child_content">
-              <h2 className="text-4xl font-bold my-5">
+              <h2 className="text-2xl md:text-4xl font-bold my-5">
                 Epicyclic Gear Train:-
               </h2>
               <p>
