@@ -16,7 +16,7 @@ const Header = () => {
         <div>
           <Link to="/" className="flex items-center text-white text-4xl">
             <BsFillGearFill />
-            &nbsp; Gear Trains Website
+            &nbsp; Gear Train Website
           </Link>
         </div>
         <div className="sm:hidden">
@@ -26,9 +26,9 @@ const Header = () => {
         </div>
       </div>
       <nav className={`${isOpen ? "block" : "hidden"} px-2 pt-2 pb-4 sm:flex sm:p-0`}>
-      <Link to="/details" className="block px-2 mx-5 text-3xl py-1 text-white rounded hover:bg-gray-700">What is Gear Train? </Link>
-        <Link to="/about" className="block px-2 text-3xl py-1 text-white rounded hover:bg-gray-700">About</Link>
-        <Link to="/contact" className="block text-3xl px-2 py-1 text-white rounded hover:bg-gray-700">Contact</Link>
+      <Link to="/details" className="block px-2 mr-5 text-3xl py-1 text-white rounded hover:bg-gray-700">What is Gear Train?</Link>
+        <Link to="/about" className="block px-2 mr-5 text-3xl py-1 text-white rounded hover:bg-gray-700">About</Link>
+        <Link to="/contact" className="block text-3xl mr-5 px-2 py-1 text-white rounded hover:bg-gray-700">Contact</Link>
       </nav>
     </header>
   );
