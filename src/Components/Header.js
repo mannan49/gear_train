@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
-          <Link to="/" className="flex items-center text-white text-4xl">
+          <Link to="/" className="flex items-center text-white text-2xl md:text-4xl">
             <BsFillGearFill />
             &nbsp; Gear Train Website
           </Link>

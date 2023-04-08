@@ -35,9 +35,9 @@
   color: white;
   cursor: pointer;
 }
-
 .gear-train-table {
   width: 96%;
+  max-width: 98%;
   border-collapse: collapse;
   margin: 0 2%;
 }
